@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charismatic", "Charismatic\Charismatic.csproj", "{26DC5BF0-07BA-4754-8B01-94F3A5ED5022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charismatic.Tests", "Charismatic.Tests\Charismatic.Tests.csproj", "{2A0FF65B-7F8E-4518-B21E-1F2345F7965D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26DC5BF0-07BA-4754-8B01-94F3A5ED5022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DC5BF0-07BA-4754-8B01-94F3A5ED5022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DC5BF0-07BA-4754-8B01-94F3A5ED5022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DC5BF0-07BA-4754-8B01-94F3A5ED5022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A0FF65B-7F8E-4518-B21E-1F2345F7965D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0FF65B-7F8E-4518-B21E-1F2345F7965D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0FF65B-7F8E-4518-B21E-1F2345F7965D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0FF65B-7F8E-4518-B21E-1F2345F7965D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

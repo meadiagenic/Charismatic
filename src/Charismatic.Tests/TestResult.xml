@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\projects\GitHub\Charismatic\src\Charismatic.Tests\Charismatic.Tests.nunit" total="3" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-11-27" time="01:17:41">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5448" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\projects\GitHub\Charismatic\src\Charismatic.Tests" machine-name="MEAD-MAC" user="Mead" user-domain="Mead-MAC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\projects\GitHub\Charismatic\src\Charismatic.Tests\Charismatic.Tests.nunit" executed="True" result="Failure" success="False" time="0.951" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\projects\GitHub\Charismatic\src\Charismatic.Tests\bin\Debug\Charismatic.Tests.dll" executed="True" result="Failure" success="False" time="0.939" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Charismatic" executed="True" result="Failure" success="False" time="0.938" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="0.938" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="DynamicValueTests" executed="True" result="Failure" success="False" time="0.937" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="ConversionTestFixture" executed="True" result="Failure" success="False" time="0.935" asserts="0">
+                        <results>
+                          <test-case name="Charismatic.Tests.DynamicValueTests.ConversionTestFixture.Can_Convert_Int_To_Boolean" executed="True" result="Success" success="True" time="0.832" asserts="0" />
+                          <test-case name="Charismatic.Tests.DynamicValueTests.ConversionTestFixture.Can_Convert_String_To_Boolean" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                          <test-case name="Charismatic.Tests.DynamicValueTests.ConversionTestFixture.Can_Convert_String_To_Double" executed="True" result="Error" success="False" time="0.078" asserts="0">
+                            <failure>
+                              <message><![CDATA[Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : Cannot implicitly convert type 'Charismatic.DynamicValue' to 'double']]></message>
+                              <stack-trace><![CDATA[at CallSite.Target(Closure , CallSite , Object )
+at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+at Charismatic.Tests.DynamicValueTests.ConversionTestFixture.Can_Convert_String_To_Double() in C:\projects\GitHub\Charismatic\src\Charismatic.Tests\DynamicValueTests\ConversionTestFixture.cs:line 41
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
